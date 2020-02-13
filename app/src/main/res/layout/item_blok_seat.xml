@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/container_blok_seat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_blok_seat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="BLABLABLA"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_seat_mapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>

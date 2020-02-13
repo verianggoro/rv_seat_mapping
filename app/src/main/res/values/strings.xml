@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Example Nested Rv</string>
+
+    <string name="title_name">On The Spot</string>
+    <string name="btn_text_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="txt_report_customer_btn">Report Customer</string>
+    <string name="txt_report_penukaran_btn">Report Penukaran</string>
+    <string name="txt_ticket_invitation_btn">Ticket Invitation</string>
+    <string name="txt_ir_scanner_btn">IR SCANNER</string>
+    <string name="txt_report_penjualan_btn">Report Penjualan</string>
+    <string name="txt_penjualan_ticket_btn">Penjualan Ticket</string>
+    <string name="txt_penurakaran_ticket_btn">Penurakaran Ticket</string>
+    <string name="txt_checking_customer_btn">Checking Customer</string>
+    <string name="txt_gate_check_in_btn">Gate Check In</string>
+    <string name="txt_ralational_title">Permission Required</string>
+    <string name="txt_message_permission">You Need Allow Permission to Using App</string>
+    <string name="placeholder_input_nama">Masukan Nama</string>
+    <string name="placeholder_masukan_email">Masukan Email</string>
+    <string name="placeholder_masukan_no_telp">Masukan No Telp</string>
+    <string name="placeholder_category">Kategori</string>
+    <string name="placeholder_seat">Seat</string>
+    <string name="placeholder_status">Status</string>
+    <string name="placeholder_save">Save</string>
+    <string name="data_invalid_message">Data Invalid</string>
+    <string name="success_added_data_message">Berhasil Menambahkan Data</string>
+    <string name="placeholder_rp">Rp. %1s</string>
+    <string name="placeholder_result_customer">: %2s</string>
+    <string name="placeholder_barcode_nama_email">Barcode</string>
+    <string name="failed_connect_to_server">Gagal Terkoneksi Ke Server</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="show_pass">Show Password</string>
+    <string name="failed_to_connect">Failed to connect server</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="placeholder_price">%3s - %3s</string>
+
+    <string name="wording_username_pass_isempty">Username &amp; Password Harus Terisi</string>
+    <string name="wording_username_isempty">Username Harus Terisi</string>
+    <string name="wording_pass_isempty">Password Harus Terisi</string>
+    <string name="wording_username_pass_wrong">Username &amp; Password Salah</string>
+
+    <string name="user_superadmin">superadmin</string>
+    <string name="user_ticketbox">ticketbox</string>
+    <string name="user_penukaran">penukaran</string>
+    <string name="user_gate">Gate</string>
+    <string name="menu_report_penjualan">Penjualan</string>
+    <string name="menu_report_penukaran">Penukaran</string>
+    <string name="menu_report_customer">Customer</string>
+    <string name="menu_ticket_invitation">Invitation</string>
+    <string name="btn_create_invitation">Buat Undangan</string>
+    <string name="app_bar_sign_out">Sign Out</string>
+
+    <string name="placeholder_book_id">Barcode</string>
+    <string name="placeholder_ticket_from">Ticket From</string>
+    <string name="placeholder_code_seat">Code Seat</string>
+    <string name="placeholder_nama">Nama</string>
+    <string name="placeholder_phone">Phone</string>
+    <string name="placeholder_number_seat">No Kursi</string>
+    <string name="placeholder_email">Email</string>
+    <string name="text_bronze">Bronze</string>
+    <string name="text_diamond">Diamond</string>
+    <string name="text_gold">Gold</string>
+    <string name="text_platinum">Platinum</string>
+    <string name="text_silver">Silver</string>
+    <string-array name="filter_category">
+        <item>Global</item>
+        <item>Hard Ticket</item>
+        <item>Other Ticket</item>
+    </string-array>
+    <string-array name="type_ticket">
+        <item>Penjualan</item>
+        <item>Invitation</item>
+        <item>Online</item>
+    </string-array>
+    <integer-array name="dummy_qty_report">
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>5</item>
+    </integer-array>
+
+    <string name="dummy_book_id">152291</string>
+    <string name="dummy_code_order">D43374</string>
+    <string name="dummy_code_seat">7AD157FC1F</string>
+    <string name="dummy_nama">Angela Irene</string>
+    <string name="dummy_email">angela.irene25@gmail.com</string>
+    <string name="dummy_phone">087777654352</string>
+    <string name="dummy_category">SILVER \nFree Seating</string>
+    <string name="dummy_number_seat">-</string>
+    <string name="dummy_status">Sudah</string>
+    <string name="placeholder_hasil">Hasil</string>
+    <string name="conversion_title">Tukar Tiket</string>
+    <string name="title_laporan_penjualan">Laporan Penjualan</string>
+    <string name="title_laporan_penukaran">Laporan Penukaran</string>
+    <string name="title_data_penukaran_global">Data Penukaran Global</string>
+    <string name="title_data_penukaran_ticketbox_lain">Data Penukaran Ticketbox Lain</string>
+    <string name="title_data_penukaran_hard_ticket">Data Penukaran Hard Ticket</string>
+    <string name="placeholder_qty">Jumlah Tiket</string>
+    <string name="placeholder_ticket_box">Ticketbox</string>
+    <string name="title_report_sales_invitation">Laporan Penjualan Invitation</string>
+    <string name="title_report_sales_online">Laporan Penjualan Online</string>
+    <string name="menu_gatein">Gate</string>
+    <string name="titile_laporan_global_gate">Laporan Global Gate</string>
+    <string name="data_tidak_tersedia">Data Tidak Tersedia</string>
+    <string name="title_total">Total</string>
+    <string name="title_discount">Discount</string>
+    <string name="gate_in">Gate In</string>
+    <string name="gate_out">Gate Out</string>
+    <string name="gate_menu">Gate</string>
+    <string name="tiket_categori">Tiket Tersedia</string>
+    <string name="grand_total_title">Grand Total</string>
+    <string name="seat_available">Kursi Tersedia</string>
+    <string name="msg_max_count">Maksimal Pesanan 1 Tiket</string>
+    <string name="menu_online">Online</string>
+    <string name="report_gate_in_title">Laporan Gate In</string>
+    <string name="report_gate_out_title">Laporan Gate Out</string>
+
+</resources>

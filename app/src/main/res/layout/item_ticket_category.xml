@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.github.florent37.shapeofview.shapes.CutCornerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:elevation="2dp"
+        app:shape_cutCorner_bottomLeftSize="8dp"
+        app:shape_cutCorner_bottomRightSize="8dp"
+        app:shape_cutCorner_topLeftSize="8dp"
+        app:shape_cutCorner_topRightSize="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/greyLight"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="6dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_ticket_category"
+                            style="@style/TextThemeDark"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+
+                            android:textSize="14sp"
+                            tools:text="DIAMOND" />
+
+                        <LinearLayout
+                            android:id="@+id/container_ticket_property"
+                            android:layout_width="match_parent"
+                            android:layout_height="28dp"
+                            android:layout_gravity="bottom"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txt_harga_ticket"
+                                style="@style/TextThemeDark"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_weight="2"
+
+                                android:text="Rp. 500.000"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:id="@+id/txt_available"
+                                style="@style/TextThemeDark"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_weight="1"
+
+                                android:gravity="center"
+                                android:text="100"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/dash" />
+
+            <LinearLayout
+                android:id="@+id/divide_ticket"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@color/lightOrange"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+    </com.github.florent37.shapeofview.shapes.CutCornerView>
+</layout>

@@ -1,0 +1,152 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightText</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="loginButtonTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/lightText</item>
+        <item name="android:background">@drawable/shape_button</item>
+    </style>
+
+    <style name="createButtonTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/lightText</item>
+        <item name="android:background">@drawable/shape_button</item>
+    </style>
+
+    <style name="SuperAdminTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/mainBlue</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/lightText</item>
+        
+    </style>
+
+    <style name="DecrementButtonTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/shape_ic_decrement</item>
+    </style>
+    
+    <style name="ShowResultTicket" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/background_result_ticket</item>
+        
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+    
+    <style name="IncrementButtonTheme" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/shape_increment_button</item>
+    </style>
+
+    <style name="TextThemeDark" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+    <style name="MainTextThemeLight" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/lightText</item>
+    </style>
+
+    <style name="ChosenSeatThemeButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/shape_chosen_seat</item>
+    </style>
+
+    <style name="ResultCheckCustomer" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+    <style name="FilterUserStyle" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:background">@drawable/filter_user_background</item>
+        
+    </style>
+
+    <style name="ContainerFilterDataTheme">
+        <item name="android:background">@drawable/shape_container_penjualan</item>
+        
+    </style>
+
+    <style name="ThemeTotalData">
+        <item name="android:background">@drawable/shape_total</item>
+    </style>
+
+    <style name="ThemeQrButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/shape_qr_button</item>
+    </style>
+
+    <style name="TextStyleFooter">
+        <item name="android:textColor">@color/lightText</item>
+        
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ThemeDetailReport" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/shape_detail_report</item>
+    </style>
+
+    <style name="ThemeButtonReset" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/shape_reset_button</item>
+        <item name="android:drawableLeft">@drawable/ic_reset_data</item>
+        <item name="android:text">Reset</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/lightText</item>
+        
+    </style>
+
+    <style name="TextStyleData" parent="TextAppearance.AppCompat">
+        
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+    <style name="TextStyleHeader" parent="TextAppearance.AppCompat">
+        
+        <item name="android:textColor">@color/greyText</item>
+    </style>
+
+    <style name="HeaderTableTextTheme">
+        
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+    <style name="TitleDataTheme" parent="TextAppearance.AppCompat">
+        
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+    <style name="StyleCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:text">@string/show_pass</item>
+        
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+    <style name="TextNoDataStyle" parent="TextAppearance.AppCompat.Headline">
+        
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TitleActivity" parent="TextAppearance.AppCompat.Headline">
+        
+        <item name="android:textColor">@color/darkText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TitleChoseSeatFragment" parent="TextAppearance.AppCompat.Headline">
+        
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkText</item>
+    </style>
+
+</resources>
